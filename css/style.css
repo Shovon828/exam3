@@ -1,0 +1,266 @@
+/*
+----Author------
+Name:Sohanor Rahman;
+E-mail:shovons-828@gmail.com;
+*/
+/*
+===========Index========
+
+1.Home
+2.How it works
+3.Discover a Project
+4.Blog
+5.Find out More
+
+*/
+/*-------Global css-----------*/
+
+body{
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+/*----------My Custom css start--------------*/
+.no-padding{
+	padding: 0px;
+}
+/*------------nav part start------*/
+.custom-bg-color{
+	background-color: #fff!important;
+}
+.my-custom-nav-li a{
+	color: #c1c1c1!important;
+}
+/*-------banar part start-----*/
+.my-custom-banar-part{
+	background:url(../image/icrowdme-PSD---cssauthor.png) no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+.my-custom-container{
+	background-color: #0000005e;
+}
+.my-custom-banar-part h2{
+	color: #fff;
+	font-size: 40pt;
+	margin-top: 180px;
+	font-style: bold;
+}
+.my-custom-banar-part p{
+	color: #fff;
+	font-size: 25pt;
+	margin-bottom: 160px;
+	margin-top: 60px;
+
+}
+.my-custom-btn{
+	color: #fff;
+	padding: 10px 20px;
+	background-color: #99c50a;
+	border-radius: 10px;
+	border:none;
+	margin-bottom: 50px;
+}
+.my-custom-btn:hover{
+	background-color: #26a6d1;
+}
+/*----------how it works part-----*/
+.Custom-howitworks{
+	text-align: center;
+}
+.Custom-howitworks img{
+	display: block;
+    margin: 0 auto;
+    padding: 100px 0px 60px 0px;
+}
+.Custom-howitworks h2{
+	font-size: 40pt;
+	padding: 40px 0px 70px 0px;
+
+}
+.Custom-howitworks p{
+	font-size: 16pt;
+	color: gray;
+}
+.Custom-howitworks .para-2{
+	margin-bottom: 100px;
+}
+/*---------discover part start---------*/
+.my-custom-discover-part{
+
+}
+.left-part{
+	background-color: #e2f8ff;
+}
+.right-part{
+	background-color: #f5f9eb;
+}
+.my-custom-discover-part img{
+	margin: 100px 0px 100px 0px;
+	float: left;
+	display: block;
+}
+.discover-head{
+	margin-left: 120px;
+	padding:100px 0px 30px 0px;
+}
+.dsicover-para{
+	padding-bottom: 30px;
+	margin-left: 120px;
+}
+.discover-btn1{
+	color: #fff;
+	border: none;
+	border-radius: 10px;
+	background-color: #26a6d1;
+	margin: 0 auto;
+	padding: 8px 20px;
+	margin-bottom: 50px;
+}
+.discover-btn2{
+	color: #fff;
+	border: none;
+	border-radius: 10px;
+	background-color: #99c50a;
+	margin: 0 auto;
+	padding: 8px 20px;
+	margin-bottom: 50px;
+}
+.discover-btn1:hover{
+	background-color: #99c50a;
+}
+.discover-btn2:hover{
+	background-color: #26a6d1;
+}
+
+/*-----blog ------*/
+.blog-custom-main{
+
+}
+.blog-custom-main h2{
+	font-size: 29pt;
+	font-style: bold;
+	margin-bottom: 50px;
+	margin-top: 50px;
+
+}
+.blog-custom-main p{
+	font-size: 18pt;
+	text-align: justify;
+	margin-bottom: 100px;
+}
+.blog-btn{
+	color: black;
+    padding: 10px 20px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 185px 0px 50px 100px;
+
+}
+.blog-btn:hover{
+	background-color: #99c50a;
+	border: none;
+}
+/*-----------find more section start--------*/
+.custom-findout{
+	border-bottom: 2px solid gray;
+}
+.my-custom-card-img{
+	position: absolute;
+
+}
+.my-card-custom-btn{
+	position: relative;
+	background-color: #308aa8;
+	padding: 6px 10px;
+	border: none;
+	border-radius: 10px;
+	margin-top: 172px;
+	width: 50%;
+    left: 50%;
+    color: #fff;
+
+}
+.custom-card-link:hover{
+	color: none;
+}
+.custom-card-link{
+	text-decoration: none;
+	color: black;
+	font-size: 17pt;
+	float: right;
+}
+.logo-link{
+	margin-top: 100px;
+	margin-bottom: 100px;
+
+}
+.logo-link ul{
+	list-style:none;
+
+}
+.logo-link li{
+	font-size: 28pt;
+	display: inline;
+	padding: 0px 10px 0px 10px;
+
+} 
+
+/*Footer part start*/
+.footer-custom-main{
+	background-color: #ffffff!important;
+
+}
+.custom-para{
+	color: gray!important;	
+}
+
+/*-------------Media Quary----------*/
+/*------------bannar part-------*/
+@media (min-width: 300px) and (max-width: 720px){
+	.my-custom-banar-part h2{
+		font-size: 25pt;
+		margin-top: 100px;
+	}
+	.my-custom-banar-part p{
+		font-size: 16pt;
+		margin: 30px 0px 30px 0px;
+
+	}
+	/*--------Our Work part start------*/
+	.Custom-howitworks img{
+	padding: 80px 0px 50px 0px;
+	}
+	.Custom-howitworks h2{
+		padding: 0px 0px 40px 0px;
+		font-size: 25pt;
+	}
+	/*----------discover part start-----*/
+	.discover-btn1{
+		margin-left: 40px;
+	}
+	.discover-btn2{
+		margin-bottom: 30px;
+		margin-left: 55px;
+	}
+	/*-------blog part---*/
+	.blog-custom-main h2{
+		font-size: 25pt;
+		margin-bottom: 20px;
+		margin-top: 30px;
+		text-align: center;
+	}
+	.blog-custom-main p{
+		font-size: 16pt;
+		text-align: justify;
+	}
+	.blog-btn{
+		margin: 0 auto;
+	}
+	/*------------card part start-------*/
+	.custom-card-part{
+		margin: 0 auto;
+		margin-top: 20px;
+	}
+}	
